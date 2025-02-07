@@ -137,3 +137,86 @@ diff --git a/index.html b/index.html
 +
 
 ```
+
+## 2025-02-07 23:38:30 - TestRepo
+
+This change adds an HTML form for collecting student information within the `index.html` file.
+
+*   **Modified `index.html`:**
+    *   Added a `<form>` element with the class `student-form` to the `<header>` section.
+    *   Inside the form, added input fields for:
+        *   `studentName` (text)
+        *   `studentId` (text)
+        *   `email` (email)
+        *   `grade` (select dropdown) with options for 9th, 10th, 11th, and 12th grade
+        *   `dob` (date)
+    *   Included a submit button.
+    *   Each input field includes a label and is within a `form-group` div.
+    *   All input fields are marked as `required`.
+
+
+```diff
+diff --git a/index.html b/index.html
+--- a/index.html
++++ b/index.html
+-        
++        <form class="student-form">
+-    </header>
++            <div class="form-group">
+-    <main>
++                <label for="studentName">Student Name:</label>
+-        <p>This is a basic HTML boilerplate.</p>
++                <input type="text" id="studentName" name="studentName" required>
+-    </main>
++            </div>
+-    <footer>
++            
+-        <p>&copy; 2025 My Website</p>
++            <div class="form-group">
+-    </footer>
++                <label for="studentId">Student ID:</label>
+-    <script src="script.js"></script>
++                <input type="text" id="studentId" name="studentId" required>
+-
++            </div>
+-</body>
++
+-</html>
++            <div class="form-group">
+-
++                <label for="email">Email:</label>
++                <input type="email" id="email" name="email" required>
++            </div>
++
++            <div class="form-group">
++                <label for="grade">Grade Level:</label>
++                <select id="grade" name="grade" required>
++                    <option value="">Select Grade</option>
++                    <option value="9">9th Grade</option>
++                    <option value="10">10th Grade</option>
++                    <option value="11">11th Grade</option>
++                    <option value="12">12th Grade</option>
++                </select>
++            </div>
++
++            <div class="form-group">
++                <label for="dob">Date of Birth:</label>
++                <input type="date" id="dob" name="dob" required>
++            </div>
++
++            <button type="submit" class="submit-btn">Submit</button>
++        </form>
++    </header>
++    <main>
++        <p>This is a basic HTML boilerplate.</p>
++    </main>
++    <footer>
++        <p>&copy; 2025 My Website</p>
++    </footer>
++    <script src="script.js"></script>
++
++</body>
++</html>
++
+
+```
