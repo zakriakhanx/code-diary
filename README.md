@@ -375,3 +375,16 @@ diff --git a/mma\app\components\Pagination.js b/mma\app\components\Pagination.js
 +  throw new Error('visible pages are not set')
 
 ```
+
+## 2025-02-13 23:54:53 - Backend
+
+style(auth): Add semicolon to error handling in auth controller
+
+```diff
+diff --git a/controllers\auth.controller.js b/controllers\auth.controller.js
+--- a/controllers\auth.controller.js
++++ b/controllers\auth.controller.js
+-        next(error)
++        next(error);
+
+```
