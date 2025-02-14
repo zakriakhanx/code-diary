@@ -414,3 +414,16 @@ diff --git a/controllers\auth.controller.js b/controllers\auth.controller.js
 +    console.log('this is test message from signout route')
 
 ```
+
+## 2025-02-14 23:47:06 - Backend
+
+fix(auth): Correct typo in signout route console message
+
+```diff
+diff --git a/controllers\auth.controller.js b/controllers\auth.controller.js
+--- a/controllers\auth.controller.js
++++ b/controllers\auth.controller.js
+-    console.log('this is second test message from signout rout')
++    console.log('this is second test message from signout route')
+
+```
