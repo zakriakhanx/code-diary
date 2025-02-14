@@ -25,3 +25,16 @@ diff --git a/controllers\auth.controller.js b/controllers\auth.controller.js
 +    console.log('this is test message from route signin ')
 
 ```
+
+## 2025-02-15 00:10:45 - Backend
+
+fix(auth): Correct console log message in signout function
+
+```diff
+diff --git a/controllers\auth.controller.js b/controllers\auth.controller.js
+--- a/controllers\auth.controller.js
++++ b/controllers\auth.controller.js
+-    console.log('this is test 2 from signo')
++    console.log('this is test 2 from signout')
+
+```
