@@ -401,3 +401,16 @@ diff --git a/controllers\auth.controller.js b/controllers\auth.controller.js
 +import { JWT_EXPIRES_IN, JWT_SECRET } from "../config/env.js";
 
 ```
+
+## 2025-02-14 23:45:23 - Backend
+
+fix(auth): Correct typo in signout route console message
+
+```diff
+diff --git a/controllers\auth.controller.js b/controllers\auth.controller.js
+--- a/controllers\auth.controller.js
++++ b/controllers\auth.controller.js
+-    console.log('this is test message from signout rout')
++    console.log('this is test message from signout route')
+
+```
