@@ -179,3 +179,21 @@ diff --git a/controllers\auth.controller.js b/controllers\auth.controller.js
  }
 
 ```
+
+## 2025-02-15 00:39:44 - Backend
+
+chore(auth): Add test message to signOut controller
+
+```diff
+diff --git a/controllers\auth.controller.js b/controllers\auth.controller.js
+--- a/controllers\auth.controller.js
++++ b/controllers\auth.controller.js
+@@ -1,${oldLines.length} +1,${newLines.length} @@
+ }
+ 
+ export const signOut = async (req, res, next) => {
+-    
++    console.log('this is test message from signout')
+ }
+
+```
