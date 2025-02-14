@@ -388,3 +388,16 @@ diff --git a/controllers\auth.controller.js b/controllers\auth.controller.js
 +        next(error);
 
 ```
+
+## 2025-02-14 18:47:47 - Backend
+
+fix: Correct import path for env configuration in auth controller
+
+```diff
+diff --git a/controllers\auth.controller.js b/controllers\auth.controller.js
+--- a/controllers\auth.controller.js
++++ b/controllers\auth.controller.js
+-import { JWT_EXPIRES_IN, JWT_SECRET } from "../config/env.";
++import { JWT_EXPIRES_IN, JWT_SECRET } from "../config/env.js";
+
+```
