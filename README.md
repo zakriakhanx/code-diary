@@ -35,3 +35,7 @@ fix(auth): Update auth controller with proper error handling and response format
 
 refactor(auth): Remove signUp functionality and clean up auth controller
 
+
+## 2025-02-16 21:52:39 - Backend
+
+refactor: Move configuration and database connection to separate modules, update server initialization
