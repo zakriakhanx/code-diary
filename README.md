@@ -39,3 +39,13 @@ refactor(auth): Remove signUp functionality and clean up auth controller
 ## 2025-02-16 21:52:39 - Backend
 
 refactor: Move configuration and database connection to separate modules, update server initialization
+
+---
+
+### **📌 WholeSale Backend**
+🕒 **2025-02-16 23:40:07**
+
+```
+chore: Clean up and log statement alignment in server.js
+```
+
