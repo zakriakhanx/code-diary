@@ -27,3 +27,13 @@ feat: Add supplier and shopkeeper models with MongoDB schemas. Refactor server.j
 feat: Add inventory and shopkeeper routes with basic CRUD operations
 ```
 
+
+---
+
+### **📌 WholeSale Backend**
+🕒 **2025-02-17 21:42:40**
+
+```
+feat: Add and update routes for inventory, shopkeeper, financial transactions, analytics, and transportation modules
+```
+
