@@ -37,3 +37,15 @@ feat: Add inventory and shopkeeper routes with basic CRUD operations
 feat: Add and update routes for inventory, shopkeeper, financial transactions, analytics, and transportation modules
 ```
 
+
+---
+
+### **📌 WholeSale Backend**
+🕒 **2025-02-17 21:52:45**
+
+```
+feat: Add API routes for supplier, shopkeeper, transportation, inventory, financial transactions, and analytics
+
+fix(analytics): Correct and implement daily and monthly sales report endpoints
+```
+
