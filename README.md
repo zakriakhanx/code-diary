@@ -49,3 +49,13 @@ feat: Add API routes for supplier, shopkeeper, transportation, inventory, financ
 fix(analytics): Correct and implement daily and monthly sales report endpoints
 ```
 
+
+---
+
+### **📌 eshopify**
+🕒 **2025-02-18 15:19:04**
+
+```
+feat: Add Navbar component and integrate into homepage
+```
+
