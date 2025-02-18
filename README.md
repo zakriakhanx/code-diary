@@ -69,3 +69,15 @@ feat: Add Navbar component and integrate into homepage
 refactor: Update Navbar component structure
 ```
 
+
+---
+
+### **📌 eshopify**
+🕒 **2025-02-18 16:12:22**
+
+```
+feat: Update Navbar with new icons and styles
+
+Added shopping cart, account, and settings icons using Next.js Image component. Improved Navbar styling with hover effects, adjusted spacing, and added search input placeholder. Updated global CSS with navbar specific styles and removed theme-related variables.
+```
+
