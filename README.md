@@ -59,3 +59,13 @@ fix(analytics): Correct and implement daily and monthly sales report endpoints
 feat: Add Navbar component and integrate into homepage
 ```
 
+
+---
+
+### **📌 eshopify**
+🕒 **2025-02-18 15:39:03**
+
+```
+refactor: Update Navbar component structure
+```
+
