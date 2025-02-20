@@ -81,3 +81,15 @@ feat: Update Navbar with new icons and styles
 Added shopping cart, account, and settings icons using Next.js Image component. Improved Navbar styling with hover effects, adjusted spacing, and added search input placeholder. Updated global CSS with navbar specific styles and removed theme-related variables.
 ```
 
+
+---
+
+### **📌 eshopify**
+🕒 **2025-02-20 21:29:18**
+
+```
+feat(FeaturedProducts): Implement Swiper carousel for featured products with pagination
+
+style(globals.css): Add custom styles for Swiper pagination bullets
+```
+
