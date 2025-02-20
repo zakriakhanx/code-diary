@@ -103,3 +103,13 @@ style(globals.css): Add custom styles for Swiper pagination bullets
 feat: Add LatestProducts component with Swiper integration
 ```
 
+
+---
+
+### **📌 eshopify**
+🕒 **2025-02-20 23:41:03**
+
+```
+style: Update styling and layout in WhatWeOffer and Navbar components
+```
+
