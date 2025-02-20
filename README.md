@@ -93,3 +93,13 @@ feat(FeaturedProducts): Implement Swiper carousel for featured products with pag
 style(globals.css): Add custom styles for Swiper pagination bullets
 ```
 
+
+---
+
+### **📌 eshopify**
+🕒 **2025-02-20 21:35:05**
+
+```
+feat: Add LatestProducts component with Swiper integration
+```
+
